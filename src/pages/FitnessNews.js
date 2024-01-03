@@ -162,10 +162,7 @@ const FitnessNews = () => {
                            <Typography variant='body6' color="GrayText">{news.source} <br/>{news.date}</Typography>
                         </CardContent>
                         
-                        {/* <CardActions>
-                            <Button >{item.bodyPart}</Button>
-                            <Button > {item.target}</Button>
-                        </CardActions> */}
+                       
                         </Card>
                         </Link>
                     </Stack>

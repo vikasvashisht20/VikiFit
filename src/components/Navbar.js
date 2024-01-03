@@ -52,7 +52,7 @@ function Navbar() {
               backgroundColor: "black",
             }}
           />
-          <Link className="removeunderline" to="/">
+          <Link className="removeunderline" to="/VikiFit">
             <Typography
               variant="h6"
               noWrap
@@ -107,7 +107,7 @@ function Navbar() {
                 </MenuItem> */}
 
               {pages.map((page) => (
-                <Link className="removeunderline" to={page}>
+                <Link className="removeunderline" to={"/VikiFit/"+page}>
                   <MenuItem key={page}
                      sx={{
                         color: "white",
@@ -158,7 +158,7 @@ function Navbar() {
               </Link> */}
 
             {pages.map((page) => (
-              <Link className="removeunderline" to={page}>
+              <Link className="removeunderline" to={"/VikiFit/"+page}>
                 <Button
                   key={page}
                   onClick={handleCloseNavMenu}
