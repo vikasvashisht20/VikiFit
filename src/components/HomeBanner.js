@@ -47,10 +47,10 @@ const HomeBanner = () => {
       <Grid item xs={12} className="overlay">
         <h2> Welcome to Vikas Fitness Studio</h2>
         <h3 className='exerciseDescription'>Discover Your Fitness Potential.</h3>
-        <Link to ="/Exercises">
+        <Link to ="/VikiFit/Exercises">
         <button className='exercisebutton'>Explore Exercises</button>
         </Link>
-        <Link to ="/FitnessNews">
+        <Link to ="/VikiFit/FitnessNews">
         <button className='exercisebutton'>Explore FitnessNews</button>
         </Link>
       </Grid>
